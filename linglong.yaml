@@ -9,7 +9,7 @@ package:
     A simple demo app.
 
 command:
-  - demo
+  - start.bash
 
 base: org.deepin.base/23.1.0
 runtime: org.deepin.runtime.dtk/23.1.0
@@ -21,3 +21,6 @@ build: |
   qmake ..
   make
   make install
+  cd ..
+  cp start.sh $PREFIX/bin/
+  chmod +x $PREFIX/bin/start.sh

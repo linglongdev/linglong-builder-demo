@@ -1,7 +1,7 @@
 version: "1"
 
 package:
-  id: org.deepin.demo
+  id: cn.org.linyaps.demo
   name: demo
   kind: app
   version: 1.0.0.0
